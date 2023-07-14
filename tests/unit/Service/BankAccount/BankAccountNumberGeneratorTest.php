@@ -8,7 +8,6 @@ use App\Model\BankAccountNumber;
 use App\Repository\BankAccountRepository;
 use App\Service\BankAccount\BankAccountNumberGenerator;
 use PHPUnit\Framework\TestCase;
-use Webmozart\Assert\InvalidArgumentException;
 
 final class BankAccountNumberGeneratorTest extends TestCase
 {
